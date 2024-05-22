@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script>
+        function viewResume() {
+            window.open('images/resume.pdf', '_blank');
+        }
+
+        //  function downloadResume() {
+        //     const link = document.createElement('a');
+        //     link.href = 'images/resume.pdf';
+        //     link.download = 'images/resume.pdf';
+        //     link.click();
+        //  }
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <h3>NITHISH KUMAR C <p class="div"></p></h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <div class="primary">
+                <h1>MY NAME IS NITHISH KUMAR</h1>
+                <p class="p1">I am currently pursuing Full Stack Development course in Kgisl</p>
+                <a href="contact.html"><span>Contact me</span></a>
+            </div>
+            <a href="https://github.com/nithish309"><img id="img" src="/images/git logo.png"></a>
+            <a href="https://app.netlify.com/teams/nithishchinnasamy91/overview"><img id="img1" src="/images/netlify-logo-png-transparent.png"></a>
+            <a onclick="viewResume()"><span class="sp">Resume</span></a>
+         
+        </div>
+    </div>
+
+</body>
+</html>
